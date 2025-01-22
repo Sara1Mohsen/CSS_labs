@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    min-height: 5vh;
+    /*border: 2px solid black;*/
+    /*margin: 2px;*/
+    padding: 20px ;
+    background-color:#d4c3ab ;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul>li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+section {
+    background-image: url(../images/labtop_bg2.jpg);
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+    /* color: white; */
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section > a  {
+    text-decoration: none;
+    color: #fff;
+    background-color: lightsalmon;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font:bold 15px verdana;
+}
+
+section > a:hover {
+    background-image: linear-gradient(to left, rgb(232 216 216), rgb(88 143 230));
+}
+
+.inner-container {
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
+    background: rgba(247, 248, 250, 0.9);
+    text-align: center;
+}
+
+.main-container button {
+    background-color: #b28c56;
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 0;
+}
+
+.main-container button:hover {
+    background-color: #554b35;
+    transform: scale(1.1);
+}
+
+.main-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 15px 0;
+    color: #333;
+}
+
+.main-container h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 100%;
+} */
+.sections-cards{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.card {
+
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+}
+
+.icons-image {
+    display: none;
+    background-color: #e1b373;
+    color: #ddd;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover .icons-image {
+    display: flex;
+    width: 300px;
+}
+
+.icons-image i {
+    font-size: 1.5rem;
+    color: #fff;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.icons-image i:hover {
+    color: rgb(232, 110, 110);
+}
+
+#heading {
+    margin: 25px auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+hr {
+    width: 35%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #b28c56;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.pimg {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    max-width: 300px;
+}
+
+.pimg img {
+    width: 100%;
+    max-width: 300px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.pimg img:hover {
+    opacity: 1;
+}
+
+.pimg p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    color: #333;
+    visibility: hidden;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pimg:hover p {
+    visibility: visible;
+}
