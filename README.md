@@ -9,10 +9,11 @@
 # Responsive Desing using grid
 
 ![image](https://github.com/user-attachments/assets/467dec5c-c2ca-47a4-9316-d2e1e8edc53c)
-![image](https://github.com/user-attachments/assets/f1dab1b9-190e-4b9f-b4fa-6f70c62999ad)
 # Responsive design
+![image](https://github.com/user-attachments/assets/f1dab1b9-190e-4b9f-b4fa-6f70c62999ad)
 ![image](https://github.com/user-attachments/assets/a3ecb1e4-0add-4a09-b4ad-eb375560d428)
 ![image](https://github.com/user-attachments/assets/1af4fade-0d87-4a86-9c78-aa766427c8de)
+
 # anmiation game using js and css
 ![image](https://github.com/user-attachments/assets/1e4c0152-43e3-4ade-92a1-0704d4fc3545)
 # animation video using css
