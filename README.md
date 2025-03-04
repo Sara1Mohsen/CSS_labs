@@ -1,6 +1,8 @@
-#css using grid
+# CSS using grid
 ![image](https://github.com/user-attachments/assets/8f52af14-eaec-4188-922f-5581b83c537a)
 
+
+#Design using bootstrap elements
 ![image](https://github.com/user-attachments/assets/2ca085ec-9177-4589-ad1b-ee685419612a)
 ![image](https://github.com/user-attachments/assets/00d555ba-625c-49e1-be9a-82d2e579eb06)
 ![image](https://github.com/user-attachments/assets/641e7f14-1413-403c-8eb7-e12e1fd81e5f)
